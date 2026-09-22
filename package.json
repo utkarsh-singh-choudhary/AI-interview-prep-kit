@@ -1,0 +1,10 @@
+{
+  "name": "ai-interview-prep-kit",
+  "private": true,
+  "workspaces": ["backend", "frontend"],
+  "scripts": {
+    "test": "npm run test -w backend",
+    "typecheck": "npm run typecheck -w backend",
+    "evaluate": "npm run evaluate -w backend --"
+  }
+}
